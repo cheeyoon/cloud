@@ -4,6 +4,7 @@ html, body {
   border: 0;
   vertical-align: baseline;
   font-family: 'Maven Pro', sans-serif;
+  width: auto;
 }
 
 .content {
