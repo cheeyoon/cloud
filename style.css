@@ -1,0 +1,43 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.video_wrapper {
+  background: #000;
+  width: 100%;
+  max-height: 100vh;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.video {
+  min-height: 715px;
+  min-width: 100%;
+  opacity: .9;
+  z-index: 1;
+  -webkit-transition: opacity 1500ms linear;
+  -moz-transition: opacity 1500ms linear;
+  transition: opacity 1500ms linear
+}
+
+.logo {
+  position: relative;
+  z-index: 2; /* <-- this plays a key roll for it to work */
+  top: 20%;
+  margin: 0 auto !important;
+  width: 150px;
+  height: 150px;
+  color: #fff;
+}
+
+.signup {
+  position: relative;
+  z-index: 2;
+  top: 40%;
+  margin: 0 auto !important;
+}
