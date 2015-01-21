@@ -59,12 +59,33 @@ html, body {
   width: 250px;
 }
 
-#mc_embed_signup form {display: block; position: relative; text-align: center; padding: 10px 0 10px 0; }
-#mc_embed_signup h2 {font-weight: 400; padding: 0; margin: 15px 0; font-size: 1.4em; }
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
  
-#mc_embed_signup input { border: 2px solid #fff; -webkit-appearance: none; outline: none; }
- 
-#mc_embed_signup .button {
+#mc_embed_signup input { 
+  border: 2px solid #fff;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+#mc_embed_signup input {
+  display: block;
+  padding: 8px 4px;
+  margin: 0 4% 20px 0;
+  color: #fff;
+  font-size: 1.0em;
+  background: transparent;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+
+#mc_embed_signup input.button {
   display: block;
   position: relative;
   background-color: transparent;
@@ -83,19 +104,9 @@ html, body {
   vertical-align: top;
 }
 
-#mc_embed_signup .button:hover { background-color: #fff; color: #000; }
-
-#mc_embed_signup input.email {
-  display: block;
-  padding: 8px 4px;
-  margin: 0 4% 20px 0;
-  color: #fff;
-  font-size: 1.0em;
-  background: transparent;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  width: 100%;
+#mc_embed_signup input.button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 ::-webkit-input-placeholder {
