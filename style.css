@@ -66,13 +66,13 @@ html, body {
   padding: 10px 0 10px 0;
 }
  
-#mc_embed_signup .mc-field-group input { 
+#mc_embed_signup input { 
   border: 2px solid #fff;
   -webkit-appearance: none;
   outline: none;
 }
 
-#mc_embed_signup .mc-field-group input {
+#mc_embed_signup input {
   display: block;
   padding: 8px 4px;
   margin: 0 4% 20px 0;
