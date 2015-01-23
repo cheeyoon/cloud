@@ -111,8 +111,6 @@ body#background {
 #mc_embed_signup input { 
   border: 2px solid #fff;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   outline: none;
 }
 
