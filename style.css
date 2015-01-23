@@ -4,26 +4,7 @@ html, body {
   border: 0;
   vertical-align: baseline;
   font-family: 'Maven Pro', sans-serif;
-}
-
-.content {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto !important;
-}
-
-.info {
-  position: relative;
-  overflow: hidden;
-  width: 250px;
-  color: #fff;
-  text-align: center;
-  margin: 0 auto 25px !important;
-  line-height: 1.25;
-  font-weight: 400;
-  font-size: 1em;
+  width: auto;
 }
 
 .video_wrapper {
@@ -46,18 +27,36 @@ html, body {
   transition: opacity 1500ms linear
 }
 
-.logo {
+.main {
+  z-index: 2;
+  display: block;
   position: relative;
-  margin: 0 auto 75px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 250px;
+}
+
+.info {
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 25px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.logo {
+  margin: 0 auto 75px auto;
   width: 150px;
   height: 150px;
   color: #fff;
 }
 
 .signup {
-  position: relative;
-  margin: 0 auto !important;
-  width: 250px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 body#background {
