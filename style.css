@@ -37,6 +37,7 @@ html, body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 250px;
+  padding: 1.5em;
 }
 
 .info {
@@ -50,7 +51,7 @@ html, body {
 }
 
 .logo {
-  margin: 0 auto 75px auto;
+  margin: 1.5em auto 75px auto;
   width: 150px;
   height: 150px;
   color: #fff;
