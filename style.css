@@ -67,7 +67,7 @@ html, body {
 }
 
 .logo {
-  margin: 1.5em auto 75px auto;
+  margin: 1em auto 75px auto;
   width: 150px;
   height: 150px;
   color: #fff;
@@ -114,7 +114,6 @@ body#background {
   border: 2px solid #fff;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
   outline: none;
 }
 
