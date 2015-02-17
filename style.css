@@ -118,7 +118,7 @@ html, body {
   font-size: .75em;
 }
 
-body#background.mobile-only {
+body#background {
   background: url('images/clouds.jpg') no-repeat 50% 50% fixed; 
   background-size: cover;
   -moz-background-size: cover;
