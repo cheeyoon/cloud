@@ -40,7 +40,7 @@ nav p {
 .collection {
   width: 100%;
   height: 500px;
-  margin: 950px auto 0;
+  margin: 0 auto;
   background: url('../images/lineup.jpg') rgb(222, 222, 222);
   background-size: cover;
   background-position: center center;
@@ -63,7 +63,7 @@ nav p {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 33;
+  z-index: 8;
   width: 30.5721507352%;
   margin: 0 auto;
 }
@@ -105,7 +105,7 @@ nav p {
 
 .flavors {
   width: 80%;
-  margin: 90px auto 0;
+  margin: 100px auto 0;
 }
 
 .foot-note {
@@ -221,9 +221,9 @@ nav p {
 }
 
 .main {
-  float: left;
   width: 100%;
-  height: 950px;
+  height: 100vh;
+  margin: 0 auto;
   background: url('../images/home_bottle.jpg') rgb(222, 222, 222);
   background-size: 1397.5px 1049px;
   background-position: center center;
@@ -400,24 +400,24 @@ nav p {
 
 .flavor-content-1 {
   position: relative;
-  z-index: 15;
+  z-index: 35;
 }
 
 .flavor-content-2 {
   position: relative;
-  z-index: 12;
+  z-index: 32;
 }
 
 .flavor-content-3 {
   position: relative;
   clear: both;
-  z-index: 9;
+  z-index: 29;
   margin-top: 75px;
 }
 
 .flavor-content-4 {
   position: relative;
-  z-index: 6;
+  z-index: 26;
   margin-top: 75px;
 }
 
@@ -537,6 +537,10 @@ nav p {
 @media(max-width: 640px) {
   .collection {
     height: 400px;
+  }
+
+  .flavors {
+    margin-top: 90px;
   }
 
   .flavors .flavor-content {
@@ -717,25 +721,25 @@ nav p {
 
   .flavors .flavor-content-1 {
     position: relative;
-    z-index: 15;
+    z-index: 35;
   }
 
   .flavors .flavor-content-2 {
     position: relative;
-    z-index: 12;
+    z-index: 32;
     margin-top: 50px;
   }
 
   .flavors .flavor-content-3 {
     position: relative;
     clear: none;
-    z-index: 9;
+    z-index: 29;
     margin-top: 50px;
   }
 
   .flavors .flavor-content-4 {
     position: relative;
-    z-index: 6;
+    z-index: 26;
     margin-top: 50px;
   }
 
@@ -771,11 +775,7 @@ nav p {
   }
 
   ._container-1 {
-    float: left;
-    clear: both;
     min-height: 0;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   ._container-2 {
