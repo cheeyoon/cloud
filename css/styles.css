@@ -223,8 +223,7 @@ nav p {
 .main {
   width: 100%;
   height: 100vh;
-  margin: 0 auto;
-  background: url('../images/home_bottle.jpg') rgb(222, 222, 222);
+  background: url('../images/home_bottle.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
