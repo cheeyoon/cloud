@@ -230,7 +230,7 @@ nav p {
   background-attachment: fixed;
   
   @media (max-width: @iphone-screen) {
-    background-position: top !important;
+    background-position: center !important;
     background-attachment: scroll;
   }
 }
