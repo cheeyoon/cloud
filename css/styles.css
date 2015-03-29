@@ -19,10 +19,6 @@ body {
   background-position: center center;
   background-attachment: fixed;
   color: rgb(255, 255, 255);
-  
-  @media (max-width: @iphone-screen) {
-    background-attachment: scroll;
-  }
 }
 
 .description p,
@@ -229,9 +225,13 @@ nav p {
   height: 100vh;
   margin: 0 auto;
   background: url('../images/home_bottle.jpg') rgb(222, 222, 222);
-  background-size: 1397.5px 1049px;
+  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  
+  @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+  }
 }
 
 .main .logo {
