@@ -19,10 +19,6 @@ body {
   -moz-background-size: cover; 
   -o-background-size: cover;
   background-size: cover;
-  -webkit-background-position: center center;
-  -moz-background-position: center center;
-  -o-background-position: center center;
-  background-position: center center;
   background-attachment: fixed;
   color: rgb(255, 255, 255);
   
