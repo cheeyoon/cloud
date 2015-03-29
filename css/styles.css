@@ -228,11 +228,6 @@ nav p {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  
-  @media (max-width: @iphone-screen) {
-    background-position: center center !important;
-    background-attachment: scroll;
-  }
 }
 
 .main .logo {
