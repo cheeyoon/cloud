@@ -238,7 +238,7 @@
            iw.close();
            infoWindowVisible(false);
          } else {
-           var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;font-size:12px;'><strong>"+title+"</strong><p>"+desc+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
+           var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;font-size:12px;'><b>"+title+"</b><p>"+desc+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
            iw = new google.maps.InfoWindow({content:html});
            iw.open(map,marker);
            infoWindowVisible(true);
