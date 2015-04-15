@@ -197,7 +197,7 @@
       var mapElement = document.getElementById('stores');
       var map = new google.maps.Map(mapElement, mapOptions);
       var locations = [
-      ['HOOKUPS VAPORS', '25431 Trabuco Rd Suite 2<br>Lake Forest, CA 92630', '+1.949.215.6911', 'sales@hookupsvapors.com', 'www.hookupsvapors.com', 33.6480068, -117.68598480000003, 'https://mapbuildr.com/assets/img/markers/ellipse-black.png']
+      ['Hookups Vapors', '25431 Trabuco Rd Suite 2<br>Lake Forest, CA 92630', '(949) 215-6911', 'sales@hookupsvapors.com', 'http://www.hookupsvapors.com', 33.6480068, -117.68598480000003, 'https://mapbuildr.com/assets/img/markers/ellipse-black.png']
       ];
       for (i = 0; i < locations.length; i++) {
         if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -238,7 +238,7 @@
            iw.close();
            infoWindowVisible(false);
          } else {
-           var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+desc+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
+           var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;font-size:12px;'><strong>"+title+"</strong><p>"+desc+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
            iw = new google.maps.InfoWindow({content:html});
            iw.open(map,marker);
            infoWindowVisible(true);
