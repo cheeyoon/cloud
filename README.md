@@ -1,4 +1,4 @@
-# cloúd
+# CLOÚD
 
 by Vapour Collective
 
