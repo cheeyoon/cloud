@@ -1,6 +1,6 @@
-# cloud
+# cloúd
 
-Alchemists of CLOÚD • hand-crafted quality e-liquid
+by Vapour Collective
 
 url:<br>
 www.vapecloud.io
