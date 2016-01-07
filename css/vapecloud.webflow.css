@@ -1,0 +1,353 @@
+.nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 999;
+  margin-left: 25px;
+}
+
+.logo {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo.w--current {
+  display: block;
+}
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navlink {
+  display: block;
+  font-family: Akkurat, sans-serif;
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.navlink:focus {
+  text-decoration: underline;
+}
+
+.navlink.subnav {
+  margin-left: 20px;
+}
+
+.navlink.subnav.subtop {
+  margin-top: 10px;
+}
+
+.navlink.subnav.subbottom {
+  margin-bottom: 10px;
+}
+
+.h6 {
+  margin-top: 50px;
+  font-family: Akkurat, sans-serif;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footertext {
+  font-family: Akkurat, sans-serif;
+  color: black;
+  font-size: 10px;
+}
+
+.footercontent {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.footercolumn1 {
+  padding-left: 0px;
+}
+
+.footercolumn2 {
+  padding-right: 0px;
+}
+
+.footerlink {
+  display: block;
+  width: 25px;
+  float: right;
+  font-family: 'Font Awesome', sans-serif;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.image {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.image.bg1 {
+  background-image: url('../images/1.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image.bg2 {
+  background-image: url('../images/2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image.bg3 {
+  background-image: url('../images/3.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image.bg4 {
+  background-image: url('../images/4.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image.bg5 {
+  background-image: url('../images/5.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image.bg6 {
+  background-image: url('../images/6.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stores {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text {
+  margin-top: 15px;
+  font-family: Akkurat, sans-serif;
+  color: black;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:focus {
+  text-decoration: underline;
+}
+
+.textblock {
+  margin-top: 125px;
+  margin-right: 25px;
+  margin-bottom: 100px;
+}
+
+.map {
+  width: 100vw;
+  height: 500px;
+}
+
+.wrapper {
+  margin-top: 125px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.wrapper.marginbottom {
+  margin-bottom: 125px;
+}
+
+.collectionimg {
+  padding: 0.5px;
+}
+
+.collectiontext {
+  display: block;
+  width: 720px;
+  margin: 10px auto 50px;
+  font-family: Akkurat, sans-serif;
+  color: black;
+  font-size: 12px;
+  text-align: left;
+}
+
+html.w-mod-js *[data-ix="move-up"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 500px) rotateX(50deg) rotateY(0deg) rotateZ(0deg);
+  transform: translate(0px, 500px) rotateX(50deg) rotateY(0deg) rotateZ(0deg);
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+  .logo.topbarlogo {
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .topbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+  }
+  .topbarlink {
+    display: block;
+    background-color: black;
+    font-family: Akkurat, sans-serif;
+    color: white;
+  }
+  .topbarlink:hover {
+    background-color: black;
+  }
+  .topbarlink:focus {
+    background-color: black;
+  }
+  .menubutton.w--open {
+    background-color: black;
+  }
+  .menubutton.w--open:hover {
+    background-color: black;
+  }
+  .menubutton.w--open:focus {
+    background-color: black;
+  }
+  .stores {
+    width: 100%;
+    height: auto;
+  }
+  .textblock {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .collectiontext {
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .footertext {
+    text-align: center;
+  }
+  .footercolumn1 {
+    padding-left: 10px;
+  }
+  .footercolumn2 {
+    margin-bottom: 25px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .footerlink {
+    display: inline-block;
+    float: none;
+  }
+}
+
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Light Regular.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Light Italic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Bold Italic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('../fonts/Akkurat Bold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaLTStd-Bold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font Awesome';
+  src: url('../fonts/FontAwesome.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
