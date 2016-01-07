@@ -230,6 +230,10 @@ html.w-mod-js *[data-ix="move-up"] {
   transform: translate(0px, 500px) rotateX(50deg) rotateY(0deg) rotateZ(0deg);
 }
 
+html.w-mod-js *[data-ix="fade-in"] {
+  opacity: 0;
+}
+
 @media (max-width: 991px) {}
 
 @media (max-width: 767px) {

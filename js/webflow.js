@@ -4349,5 +4349,6 @@
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"move-up","name":"Move Up","value":{"style":{"opacity":0,"x":"0px","y":"500px","z":"0px","rotateX":"50deg","rotateY":"0deg","rotateZ":"0deg"},"triggers":[{"type":"load","stepsA":[{"wait":250},{"opacity":1,"transition":"transform 1200ms ease 0ms, opacity 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"0deg","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
+  {"slug":"move-up","name":"Move Up","value":{"style":{"opacity":0,"x":"0px","y":"500px","z":"0px","rotateX":"50deg","rotateY":"0deg","rotateZ":"0deg"},"triggers":[{"type":"load","stepsA":[{"wait":250},{"opacity":1,"transition":"transform 1200ms ease 0ms, opacity 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"0deg","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"fade-in","name":"Fade In","value":{"style":{"opacity":0},"triggers":[{"type":"scroll","offsetTop":"30%","offsetBot":"30%","stepsA":[{"wait":500},{"opacity":1,"transition":"opacity 1200ms ease 0ms"}],"stepsB":[{"opacity":0,"transition":"opacity 1200ms ease 0ms"}]}]}}
 ]);
