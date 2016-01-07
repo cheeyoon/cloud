@@ -260,6 +260,9 @@ html.w-mod-js *[data-ix="move-up"] {
   .topbarlink:focus {
     background-color: black;
   }
+  .topbarlink.w--current {
+    color: white;
+  }
   .menubutton.w--open {
     background-color: black;
   }
