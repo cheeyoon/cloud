@@ -12,7 +12,7 @@
   margin-top: 25px;
   margin-bottom: 75px;
   font-family: Helvetica, sans-serif;
-  color: black;
+  color: #000;
   font-size: 24px;
   font-weight: 800;
   letter-spacing: 5px;
@@ -32,7 +32,7 @@
 .navlink {
   display: block;
   font-family: Akkurat, sans-serif;
-  color: black;
+  color: #000;
   font-size: 12px;
   text-decoration: none;
 }
@@ -60,7 +60,7 @@
 .h6 {
   margin-top: 50px;
   font-family: Akkurat, sans-serif;
-  color: black;
+  color: #000;
 }
 
 .footer {
@@ -72,7 +72,7 @@
 
 .footertext {
   font-family: Akkurat, sans-serif;
-  color: black;
+  color: #000;
   font-size: 10px;
 }
 
@@ -94,7 +94,7 @@
   width: 25px;
   float: right;
   font-family: 'Font Awesome', sans-serif;
-  color: black;
+  color: #000;
   font-size: 10px;
   text-align: center;
   text-decoration: none;
@@ -106,13 +106,11 @@
 }
 
 .panel {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .image {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 100vh;
   padding-right: 0px;
   padding-left: 0px;
@@ -126,14 +124,14 @@
 }
 
 .image.bg2 {
-  background-image: url('../images/2.png');
+  background-image: url('../images/2.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .image.bg3 {
-  background-image: url('../images/3.png');
+  background-image: url('../images/3.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,13 +166,18 @@
 .text {
   margin-top: 15px;
   font-family: Akkurat, sans-serif;
-  color: black;
+  color: #000;
   font-size: 10px;
   line-height: 15px;
 }
 
+.text.white {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
 .link {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
@@ -217,9 +220,57 @@
   width: 720px;
   margin: 10px auto 50px;
   font-family: Akkurat, sans-serif;
-  color: black;
+  color: #000;
   font-size: 12px;
   text-align: left;
+}
+
+.h5 {
+  font-family: Akkurat, sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.select {
+  display: block;
+  font-family: Akkurat, sans-serif;
+  color: #000;
+  font-size: 12px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-family: Akkurat, sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.agecolumn {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.agecheck {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  display: block;
+  width: 350px;
+  margin-top: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #000;
+}
+
+.ageselect {
+  display: inline;
 }
 
 html.w-mod-js *[data-ix="move-up"] {
@@ -231,8 +282,6 @@ html.w-mod-js *[data-ix="move-up"] {
 html.w-mod-js *[data-ix="fade-in"] {
   opacity: 0;
 }
-
-@media (max-width: 991px) {}
 
 @media (max-width: 767px) {
   .logo.topbarlogo {
@@ -248,31 +297,31 @@ html.w-mod-js *[data-ix="fade-in"] {
     right: 0px;
     width: 100%;
     background-color: transparent;
-    color: black;
+    color: #000;
   }
   .topbarlink {
     display: block;
-    background-color: black;
+    background-color: #000;
     font-family: Akkurat, sans-serif;
-    color: white;
+    color: #fff;
   }
   .topbarlink:hover {
-    background-color: black;
+    background-color: #000;
   }
   .topbarlink:focus {
-    background-color: black;
+    background-color: #000;
   }
   .topbarlink.w--current {
-    color: white;
+    color: #fff;
   }
   .menubutton.w--open {
-    background-color: black;
+    background-color: #000;
   }
   .menubutton.w--open:hover {
-    background-color: black;
+    background-color: #000;
   }
   .menubutton.w--open:focus {
-    background-color: black;
+    background-color: #000;
   }
   .stores {
     width: 100%;
@@ -287,6 +336,10 @@ html.w-mod-js *[data-ix="fade-in"] {
   .collectiontext {
     width: auto;
     text-align: center;
+  }
+  .agecheck {
+    width: auto;
+    margin-top: 60px;
   }
 }
 
