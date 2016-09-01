@@ -722,6 +722,7 @@
 	        position: 'fixed',
 	        bottom: 0,
 	        right: 0,
+	        zIndex: 2147483647,
 	        borderTopLeftRadius: '5px',
 	        backgroundColor: '#2b3239',
 	        padding: '8px 12px 5px 15px',
